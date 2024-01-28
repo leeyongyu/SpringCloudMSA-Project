@@ -1,4 +1,4 @@
-package com.example.demo.jpa;
+package com.example.userservice.jpa;
 
 import lombok.Data;
 

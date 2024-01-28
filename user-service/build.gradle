@@ -1,6 +1,6 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '2.4.4'
+	id 'org.springframework.boot' version '2.4.2'
 	id 'io.spring.dependency-management' version '1.1.4'
 }
 
@@ -39,7 +39,7 @@ dependencies {
 	//modelMapper
 	implementation group: 'org.modelmapper', name: 'modelmapper', version: '2.3.8'
 	// Security
-//	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 }
 
 

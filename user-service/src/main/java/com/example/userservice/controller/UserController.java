@@ -1,11 +1,11 @@
-package com.example.demo.controller;
+package com.example.userservice.controller;
 
-import com.example.demo.dto.UserDto;
-import com.example.demo.jpa.UserEntity;
-import com.example.demo.service.UserService;
-import com.example.demo.vo.Greeting;
-import com.example.demo.vo.RequestUser;
-import com.example.demo.vo.ResponseUser;
+import com.example.userservice.dto.UserDto;
+import com.example.userservice.jpa.UserEntity;
+import com.example.userservice.service.UserService;
+import com.example.userservice.vo.Greeting;
+import com.example.userservice.vo.RequestUser;
+import com.example.userservice.vo.ResponseUser;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/user-service")
+@RequestMapping
+// http://127.0.0.1:6050/user-service/welcome
+// ->  http://127.0.0.1:6050/welcome
 public class UserController {
 
     private Environment env;
