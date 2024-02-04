@@ -40,6 +40,8 @@ dependencies {
 	implementation group: 'org.modelmapper', name: 'modelmapper', version: '2.3.8'
 	// Security
 	implementation 'org.springframework.boot:spring-boot-starter-security'
+	// jwt
+	implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
 }
 
 
