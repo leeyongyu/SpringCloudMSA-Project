@@ -48,6 +48,9 @@ dependencies {
 
 	// actuator 추가
 	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator'
+
+	// amqp 추가
+	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-bus-amqp'
 }
 
 
